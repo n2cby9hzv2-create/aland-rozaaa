@@ -1,0 +1,1 @@
+const t=document.getElementById('timer');function u(){const d=new Date('2026-08-25T16:00:00')-new Date();if(d<0){t.textContent='💖 بەخێربێن';return;}let s=Math.floor(d/1000),days=Math.floor(s/86400);s%=86400;let h=Math.floor(s/3600);s%=3600;let m=Math.floor(s/60);let sec=s%60;t.textContent=`${days} ڕۆژ ${h} کاتژمێر ${m} خولەک ${sec} چرکە`; }u();setInterval(u,1000);

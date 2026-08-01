@@ -1,1 +1,1 @@
-# aland-rozaaa
+لە GitHub Pages یان Netlify Upload بکە بۆ وەرگرتنی لینک.
